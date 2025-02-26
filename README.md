@@ -1,2 +1,2 @@
 # CI-CD-FINKI
-Continuous Integration and Delivery subject activities
+Continuous Integration and Delivery subject activities.
