@@ -4,7 +4,7 @@ node {
         checkout scm
     }
     stage('Build image') {
-       app = docker.build("KireBoshkovski/CI-CD-FINKI")
+       app = docker.build("kireboshkovski/ci-cd-finki")
     }
     stage('Push image') {   
         docker.withRegistry('https://registry.hub.docker.com', 'dockerhub') {
